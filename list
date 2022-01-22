@@ -1,0 +1,15 @@
+dir
+documents
+hellotext
+list
+mode
+pineapple
+process.sh
+result
+sh
+#!/bin/bash
+
+while [ 1 ];do
+	echo "hello, pid $$"
+	sleep 3 
+done
