@@ -14,3 +14,18 @@ if [ $ABC -gt 1222 ]; then
 else 
 	echo "false"
 fi
+
+if [ $ABC -lt 2555 ]; then
+	echo "true"
+else
+	echo "false"
+fi
+
+if [ $ABC -ne 1111 ]; then 
+	echo "not equal" 
+elif [ $ABC -eq 123 ]; then
+	echo "equal"
+elif [ $ABC -le 122 ]; then
+	echo "less equal"
+fi
+
