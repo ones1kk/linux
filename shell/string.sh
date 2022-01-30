@@ -28,4 +28,16 @@ else
         echo "Not Null"
 fi
 
+if [ -z "$D" ]; then
+        echo "Null"
+else
+        echo "Not Null"
+fi
+
+
+if [ -n "$A" ]; then
+        echo "Null"
+else
+        echo "Not Null"
+fi
 
