@@ -1,0 +1,76 @@
+total 72
+1drwxr-xr-x   5 kimwonsik  staff   160B  3 27 02:11 dir
+2-rw-r--r--   1 kimwonsik  staff    39B  1 22 14:43 documents
+3-rw-r--r--   1 kimwonsik  staff    12B  1 22 15:17 echotext
+4drwxr-xr-x  18 kimwonsik  staff   576B  3 13 22:53 function
+7-rw-r--r--   1 kimwonsik  staff   130B  1 22 14:45 list
+
+   3 kimwonsik  staff    96B  1  8 16:15 mode
+9-rw-r--r--   1 kimwonsik  staff    29B  3 27 00:04 pineapple10drwxr-xr-x   4 kimwonsik  staff   128B  3 27 02:40 process
+-rwxr-xr-x   1 kimwonsik  staff    65B  1 22 14:06 process.sh
+drwxr-xr-x   8 kimwonsik  staff   256B  3 20 01:20 re
+-rw-r--r--   1 kimwonsik  staff   116B  1 22 14:45 result
+drwxr-xr-x   3 kimwonsik  staff    96B  1 22 14:04 sh
+drwxr-xr-x  11 aaaa  staff   352B  2 19 17:25 shell
+-rw-r--r--   1 a  staff    12B  1 22 15:05 string
+
+
+i: 바로 앞에 입력 Mode
+a: 바로 뒤에 입력 Mode
+HML: 화면의 제일 위, 중간, 아래로 커서 이동
+$: End key
+^: Home key
+u: Undo
+x: delete
+X: backspace
+dw: 한단어 삭제
+cw: 한단어 수정
+r: change 1 char
+A: insert mode at line end 라인 끝에서 입력 Mode 시작 
+o: 다음 줄에 입력 Mode 시작
+O: 윗줄에 입력 Mode 시작 
+dd: 한줄 지우기 
+yy: 한줄 복사
+p: 붙여넣기
+v: 블럭지정
+Shift d: 현재 커서 위치 뒷부분 삭제
+Ctrl F: page down
+Ctrl B: page up
+
+
+
+colon 명령
+:라인번호 해당 라인번호로 이동
+:$ 끝줄로 이동(cf. 첫줄은 :1) 
+:w 저장
+:q 나가기
+:q! 저장 안하고 나가기
+:! 커맨드 라인으로 잠깐 나가기
+:!명령 커맨드라인에서 명령을 실행
+:set nu 라인 번호 보기
+:set nonu 라인 번호 숨기기
+:%s/[source]/[target] 문자열 replace * option g(global), i(ignore case)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
